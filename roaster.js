@@ -1,7 +1,7 @@
 var app = angular.module("myApp", []);
 app.controller("roaster_ctrl",function($scope,$http)
 {
-    $http.get("https://sunnydahitj.github.io/json/roaster.json")
+    $http.get(" https://priya1299.github.io/lab8_angular_json/Lab8_wsd.json")
     .then(function(response)
     {
         $scope.r_list = response.data.roaster;
